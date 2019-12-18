@@ -17,7 +17,7 @@ function Header({ cartSize }) {
 
       <Cart to="/cart">
         <div>
-          <strong>Meu carrinho</strong>
+          <p>Meu carrinho</p>
           <span> {cartSize} itens</span>
         </div>
         <MdShoppingBasket size={36} color="#fff" />
