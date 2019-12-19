@@ -7,6 +7,8 @@ import background from '../assets/images/background.svg';
 export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+
+
  *{
    margin: 0;
    padding: 0;
