@@ -10,7 +10,6 @@ import { Container, ProductTable, Total } from './styles';
 import * as CartActions from '../../store/modules/cart/actions';
 import { formatPrice } from '../../util/format';
 
-// eslint-disable-next-line react/prop-types
 function Cart({ cart, total, removeFromCart, updateAmountRequest }) {
   function increment(product) {
     updateAmountRequest(product.id, product.amount + 1);
