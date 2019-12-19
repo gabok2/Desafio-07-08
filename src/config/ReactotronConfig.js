@@ -9,6 +9,5 @@ if (process.env.NODE_ENV === 'development') {
     .connect();
 
   tron.clear();
-
   console.tron = tron;
 }
