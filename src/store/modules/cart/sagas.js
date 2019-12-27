@@ -6,6 +6,7 @@ função get de dentro da constante api, e passamos os parâmetros por ,. É uma
 forma estranha de fazer mas é assim que tem que ser.
 
 
+
 put: Que é responsável por executar uma função, para chamar o reducer.
 
 all: É um agrupador de sagas, igual ao combineReducers do Redux
