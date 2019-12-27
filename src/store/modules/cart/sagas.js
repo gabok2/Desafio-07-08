@@ -1,3 +1,5 @@
+// eslint-disable-next-line prettier/prettier
+
 /*
 call: que é responsável por chamar a api externa, onde passamos a referência da
 função get de dentro da constante api, e passamos os parâmetros por ,. É uma
