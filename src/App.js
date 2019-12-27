@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import './config/ReactotronConfig';
 import { Router } from 'react-router-dom';
+import './config/ReactotronConfig';
 import { ToastContainer } from 'react-toastify';
 
 import Header from './components/Header';
