@@ -16,12 +16,14 @@ utilizamos o select para buscar o estado atual do reducer passando uma função 
 conforme o id do produto que estamos adicionando.
 */
 
-import { call, select, put, all, takeLatest } from 'redux-saga/effects';
 import { toast } from 'react-toastify';
-import history from '../../../services/history';
+
+import { call, select, put, all, takeLatest } from 'redux-saga/effects';
+
 import api from '../../../services/api';
-import { addToCartSuccess, updateAmountSuccess } from './actions';
+import history from '../../../services/history';
 import { formatPrice } from '../../../util/format';
+import { addToCartSuccess, updateAmountSuccess } from './actions';
 
 function* addToCart({ id }) {
   const productExists = yield select(state =>
