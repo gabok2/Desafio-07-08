@@ -1,5 +1,3 @@
-// eslint-disable-next-line prettier/prettier
-
 import React from 'react';
 import { MdShoppingBasket } from 'react-icons/md';
 import { useSelector } from 'react-redux';
